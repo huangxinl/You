@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 1000px;
+}
+.wrapper{
+    width: 100%;
+    min-width: 990px;
+}
+/* 导航条 */
+.top-nav-wrapper{
+    width: 100%;
+    height: 60px;
+}
+.top-nav-wrapper .nav-wrapper{
+    position: relative;
+    width: 1450px;
+    padding: 21px 50px 0px 50px;
+    height: 60px;
+    min-width: 1450px;
+    border-bottom: 1px solid #e3e7e8;
+}
+.top-nav-wrapper .nav-wrapper .g-box{
+    box-sizing: border-box;
+    background-color: #FFF; 
+    width:1520px;
+    padding: 21px 50px 0px 50px;
+    height: 81px;
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 100000;
+}
+.top-nav-wrapper .nav-wrapper .login img{
+    width: 140px;
+    height: 50px;
+    border: 0px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.top-nav-wrapper .nav-wrapper .n-view{
+    padding: 9px 10px 30px;
+    position: relative;
+}
+.top-nav-wrapper .nav-wrapper .n-view a .icon-list{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: url('./img/youku.png') no-repeat -120px -258px;
+
+}
+.top-nav-wrapper .nav-wrapper .n-view span{
+    line-height: 14px;
+    font-size: 13px;
+    color: #999;
+}
+.top-nav-wrapper .nav-wrapper .n-view span:hover{
+    color:#ff3c00;
+}
+.top-nav-wrapper .nav-wrapper .top{
+    float: left;
+}
+.top-nav-wrapper .nav-wrapper .n-content ul{
+    height: 40px;
+    margin-right: 27px;
+    line-height:40px;
+    border-radius:5px;
+    margin-left:14px; 
+}
+.top-nav-wrapper .nav-wrapper .n-content ul li{
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    margin-left:-1px; 
+}
+.top-nav-wrapper .nav-wrapper .n-content ul li a{
+    display: block;
+    padding:0px 18px;
+    border: 1px solid #2fb3ff;
+}
+.top-nav-wrapper .nav-wrapper .n-content ul li a:hover{
+    color:#ff3c00;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .way{
+    float: left;
+    position: relative;
+    width: 77px;
+    line-height: 20px;
+    height: 20px;
+    padding:10px 0px;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .login,
+.top-nav-wrapper .nav-wrapper .n-ucenter .reg{
+    float: left;
+    margin-right: 7px;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .way a:hover{
+    color:#ff3c00;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter a{
+    color: #3f3f40;
+    font-size: 13px;
+}
+.top-nav-wrapper .nav-wrapper .n-content a{
+    color: #2fb3ff;
+    font-size: 13px;
+    height: 38px;
+    line-height: 40px;
+    border: 1px solid #2fb3ff;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .top{
+    width: 70px;
+    height: 52px;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .top .nav{
+    width: 52px;
+    height: 40px;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .top .nav{
+    position: relative;
+    padding: 10px 0;
+    height: 20px;
+    line-height: 20px;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .top .nav .zj{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .top .nav .rec{
+    background: url('./img/youku.png') no-repeat -98px -237px;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .top .nav .not{
+    background: url('./img/youku.png') no-repeat -20px 0;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .top .nav .loa{
+    background: url('./img/youku.png') no-repeat -40px 1px;
+}
+.top-nav-wrapper .nav-wrapper .n-ucenter .top span{
+    display: inline-block;
+    position: absolute;
+    top:17px;
+    left: 29px;
+    width: 9px;
+    height: 5px;
+    background: url('./img/youku.png') no-repeat -60px 0px;
+}
+.top-nav-wrapper .nav-wrapper .search{
+    position: relative;
+    left: -100px;
+    float: right;
+}
+.top-nav-wrapper .nav-wrapper .search form{
+    position: relative;
+}
+.top-nav-wrapper .nav-wrapper .search input{
+    float: left;
+    width: 320px;
+    height: 20px;
+    padding: 9px 12px 9px 38px;
+    line-height: 20px;
+    font-size: 14px;
+    border: 1px solid #2fb3ff;
+    outline: 0;
+    line-height: 20px;
+    font-size: 14px;
+    color: #555;
+}
+.top-nav-wrapper .nav-wrapper .search .btn{
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    text-align: center;
+    border: 0;
+    font-size: 13px;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    background: url('img/youku.png') 0 -315px no-repeat;
+    outline: 0;
+    cursor: pointer;
+}
+.top-nav-wrapper .nav-wrapper .search form .icon-search-l{
+    position: absolute;
+    left: 9px;
+    top: 12px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url('img/youku.png') no-repeat -132px -188px;;
+}
+.top-nav-wrapper .nav-wrapper .search form .icon-search-r{
+    width: 20px;
+    height: 38px;
+    position: absolute;
+    top: 0;
+    right: 88px;
+    z-index: 2;
+    background: url('img/seach-r.png') no-repeat center;
+}
+  /* 主要导航条 */
+ .top-nav-wrapper .g-top-nav-main{
+    height: 51px;
+    padding-top: 1px;
+    border-bottom: 1px solid #e3e7e8;
+    background-color: #FFF;
+    color: #555;
+ }
+ .top-nav-wrapper .g-top-nav-main .top-nav-main{
+     width: 1340px;
+     height: 51px;
+     margin: 0 auto;
+ }
+ .top-nav-wrapper .g-top-nav-main .top-nav-main ul{
+     float: left;
+     padding-left:15px; 
+ }
+ .top-nav-wrapper .g-top-nav-main .top-nav-main ul .nav-main-list{
+     float: left;
+    margin-right:6px ;
+ }
+ .top-nav-wrapper .g-top-nav-main .top-nav-main ul .nav-main-list a{
+     padding: 0 5px;
+     font-size: 14px;
+     display: block;
+     line-height: 50px;
+ }
+ .top-nav-wrapper .g-top-nav-main .top-nav-main ul .nav-main-list a:hover{
+     color: #ff3c00;
+     cursor: pointer;
+ }
+ .active{
+     color: #2fb3ff;
+     border-bottom: 2px solid #2fb3ff;
+ }
+ .top-nav-wrapper .g-top-nav-main .top-nav-main .nav-more{
+     height: 50px;
+ }
+ .top-nav-wrapper .g-top-nav-main .top-nav-main .more{
+     position: relative;
+     float: left;
+     width: 100px;
+     height: 50px;
+     line-height: 50px;
+     font-size: 14px;
+     padding: 0 5px;  
+ }
+ .top-nav-wrapper .g-top-nav-main .top-nav-main .more span{
+    display: inline-block;
+    position: absolute;
+    top:24px;
+    left: 40px;
+    width: 9px;
+    height: 5px;
+    background: url('./img/youku.png') no-repeat -60px 0px;
+ }
+ .top-nav-wrapper .g-top-nav-main .top-nav-main .down{
+     display: inline-block;
+     float: right;
+ }
+ .top-nav-wrapper .g-top-nav-main .top-nav-main .down span{
+     font-size: 14px;
+     padding: 0 10px;
+     height: 50px;
+     line-height: 50px;
+     color: #555;
+ }
+ /* 导航标题 */
+
+.top-nav-wrapper .nav-title{
+    position: relative;
+    padding: 0 10px;
+}
+.top-nav-wrapper .nav-title ul{
+    position: relative;
+    height: 44px;
+    width: 1300px;
+    margin: 0 auto;
+}
+.top-nav-wrapper .nav-title ul li{
+    float: left;
+    margin: 20px 12px 0 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+.top-nav-wrapper .nav-title ul .current{
+    color: #2fb3ff;
+}
+.top-nav-wrapper .nav-title .gif {
+    position: absolute;
+    height: 44px;
+    right: 99px;
+    top: 10px;
+}
+.top-nav-wrapper .nav-title .gif img{
+    height: 44px;
+}
+ /* 导航部分结束 screen 主体内容
+
+1 轮播图 */
+ .wrapper .screen{
+     width: 100%;
+ }
+ .wrapper .screen .screen-body{
+    width: 1190px;
+    margin: 0px auto;
+    padding: 0px 40px;
+ }
+ .wrapper .slider-wrapper{
+    padding-top: 10px;
+    position: relative;
+    width: 1190px;
+    height: 410px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.wrapper .slider-wrapper ul{
+    position: absolute;
+    width: 7140px;
+    height: 410px;
+}
+.wrapper .slider-wrapper ul li{
+    float: left;
+}
+.wrapper .slider-wrapper ul li img{
+    width: 1190px;
+    height: 410px;
+}
+
+/* 2分栏查询 */
+.wrapper .top-nav-wrapper .screen .filter-movie{
+    border-top: 22px solid #f5f5f5;
+    border-bottom: 3px solid #e6e6e6;
+    margin-top: 20px;
+    height:70px;
+    margin-bottom:40px; 
+}
+.wrapper .top-nav-wrapper .screen .filter-movie::before{
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.wrapper .top-nav-wrapper .screen .filter-movie .filter-item{
+    position: relative;
+    float: left;
+    width: 240px;
+    display: table;
+    content: "";
+    line-height: 0;
+    padding: 5px 55px 5px 0px;
+
+}
+.wrapper .top-nav-wrapper .screen .filter-movie .filter-item label{
+    position: absolute;
+    top:-22px;
+    left: 0px;
+    background-color: #909090;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #FFF;
+    font-size:12px;
+    padding: 0 10px;
+    white-space: nowrap;
+}
+.wrapper .top-nav-wrapper .screen .filter-movie .filter-item ul{
+    overflow: hidden;
+}
+.wrapper .top-nav-wrapper .screen .filter-movie .filter-item ul li{
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 29px;   
+}
+.wrapper .top-nav-wrapper .screen .filter-movie .filter-item ul li a:hover{
+    color: #c31;
+    cursor: pointer;
+}
+
+/* 3横向视频展示 */
+
+.wrapper .top-nav-wrapper .screen .slider-center {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height:130px;
+}
+.wrapper .top-nav-wrapper .screen .slider-center .s-box{
+    width: 10000px;
+    position: relative;
+}
+.wrapper .top-nav-wrapper .screen .slider-center .pre{
+    position: absolute;
+    left: 23px;
+    top: 36px;
+    display: inline-block;
+    content: "";
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    background: url('./img/slide_prev_btn.png') no-repeat;
+    display: none;
+}
+.wrapper .top-nav-wrapper .screen .slider-center .next{
+    position: absolute;
+    left:1130px;
+    top: 40px;
+    display: inline-block;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: url('./img/slide_next_btn.png') no-repeat;
+    z-index: 100;
+}
+.wrapper .top-nav-wrapper .screen .slider-center .s-box ul{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.wrapper .top-nav-wrapper .screen .slider-center .s-box ul li:nth-of-type(1){
+    margin-left: 0px;
+}
+.wrapper .top-nav-wrapper .screen .slider-center .s-box ul li{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wrapper .top-nav-wrapper .screen .slider-center .s-box img{
+    width: 200px;
+    height: 110px;
+}
+
+/* 预告电影 */
+
+    .wrapper .top-nav-wrapper .screen .media-title{
+        height: 30px;
+        margin-top: 20px;
+    }
+    .wrapper .top-nav-wrapper .screen .media-title span{
+        line-height: 30px;
+        color: #909090;
+        font-size: 26px;
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media{
+        height: 270px;
+        width: 885px;
+        padding-top:5px; 
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media .movie-clo{
+        position: relative;
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media .movie-clo .item-clo{
+        float: left;
+        position: relative;
+        margin-top: 14px;
+        overflow: hidden;
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media .movie-clo .item-clo .vb{
+        position: absolute;
+        top: 66px;
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media .movie-clo .item-clo .vb .title a{
+        color:#b1b1b1;
+        font-size: 14px;
+        text-indent: 10px;
+        display: block;
+        padding-bottom: 5px;
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media .movie-clo .item-clo .vb .entry span{
+        font-size: 11px;
+        color: #bbb;
+        text-indent: 0.6em;
+        display: block;
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media .movie-clo .item-clo .link-box{
+        width: 200px;
+        height: 110px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: url('./img/drama.8.png') no-repeat;
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media .movie-clo .item-clo .link-box a{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media .movie-clo .item-clo .top-line{
+        position: absolute;
+        top: -4px;
+        left: 0;
+        width: 200px;
+        height: 4px;
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media .movie-clo .item-clo img{
+        width: 200px;
+        height: 110px;
+        margin-right: 20px; 
+
+    }
+
+
+
+
+@media screen and (max-width:1150px) {
+    .wrapper .top-nav-wrapper .screen .movie-media{
+        height: 270px;
+        width:666px;
+        overflow: hidden;
+    }
+    .wrapper .top-nav-wrapper .screen .movie-media .movie-clo .item-clo img:nth-of-type(3){
+        display: none;
+    }
+}
+
+/* 个人主义色彩 */
+.wrapper .top-nav-wrapper .screen .media-box{
+    float: left;
+}
+.wrapper .top-nav-wrapper .screen .media-right{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.wrapper .top-nav-wrapper .screen .media-right .wel {
+    text-align: center;
+    padding: 20px 5px;
+}
+.wrapper .top-nav-wrapper .screen .media-right .write p{
+    padding-top: 10px; 
+    font-size: 13px;
+    text-indent: 1.5em;
+}
+.wrapper .top-nav-wrapper .screen .media-right .wel span{
+    line-height: 30px;
+    color: #909090;
+    font-size: 26px;
+}
+.wrapper .top-nav-wrapper .screen .media-right .picture{
+    width: 295px;
+    height: 210px;
+}
+.wrapper .top-nav-wrapper .screen .media-right .picture img{
+    width: 200px;
+    height: 150px;
+    margin: 20px auto;
+    display: block;
+    border-radius:15px; 
+}
